@@ -22,6 +22,7 @@ function doSomething () {
     })
 }
 
+console.log("进行了test")
 
 //情况一：
 // doSomething().then(function(){
