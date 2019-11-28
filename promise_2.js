@@ -23,6 +23,7 @@ function doSomething () {
 }
 
 console.log("进行了test")
+console.log("dev进行了test等等")
 
 //情况一：
 // doSomething().then(function(){
