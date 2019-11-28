@@ -25,6 +25,7 @@ doSomething().then(function(){
     console.log("promise me !")
 })
 
+console.log("master第一次修改promise1")
 
 //Promise类中传入函数fn  fn函数中传入resolve函数   resolve函数执行  最后执行then cb
 //但是这里有个问题：按照上面这个顺序执行 会报错，因为callback函数还是null  then方法之后callback才会有值
