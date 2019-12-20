@@ -20,6 +20,9 @@ function doSomething () {
 
 
 
+
+
+
 // doSomething();
 doSomething().then(function(){
     console.log("promise me !")
